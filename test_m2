@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+#filename= test_morf
+  echo "小明和小红在花园里面。 今天天气好，很暖。 不过昨天好冷哦！他们不能在外面玩。
+ 小明和小红很喜欢玩耍， 他们常常在大屋子前的花园一起玩耍。" | lt-proc zh_CN-zh_TW.automorf.bin

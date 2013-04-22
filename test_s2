@@ -1,0 +1,8 @@
+#!/bin/bash
+#  str = "hello world"
+
+  echo "小明和小红在花园里面。 今天天气好，很暖。 不过昨天好冷哦！他们不能在外面玩。 小明和小红很喜欢玩耍， 他们常常在大屋子前的花园一起玩耍。" |
+  lt-proc zh_CN-zh_TW.automorf.bin | \
+  gawk 'BEGIN{RS="$"; FS="/";}{nf=split($1,COMPONENTS,"^"); for(i = 1; i<nf; i++) printf COMPONENTS[i]; if($2 != "") printf("^%s$",$2);}' | \
+  apertium-transfer apertium-zh_CN-zh_TW.zh_CN-zh_TW.t1x zh_CN-zh_TW.t1x.bin zh_CN-zh_TW.autobil.bin | \
+  lt-proc -g zh_CN-zh_TW.autogen.bin

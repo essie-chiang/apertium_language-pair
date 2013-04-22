@@ -1,0 +1,3 @@
+#!/usr/bin/bash
+#filename= test_morf
+  echo "小明在哪里" | lt-proc zh_CN-zh_TW.automorf.bin

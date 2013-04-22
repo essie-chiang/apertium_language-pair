@@ -1,0 +1,8 @@
+#!/bin/bash
+#  str = "hello world"
+
+  echo "小明在哪里？" |
+  lt-proc zh_CN-zh_TW.automorf.bin | \
+  gawk 'BEGIN{RS="$"; FS="/";}{nf=split($1,COMPONENTS,"^"); for(i = 1; i<nf; i++) printf COMPONENTS[i]; if($2 != "") printf("^%s$",$2);}' | \
+  apertium-transfer apertium-zh_CN-zh_TW.zh_CN-zh_TW.t1x zh_CN-zh_TW.t1x.bin zh_CN-zh_TW.autobil.bin | \
+  lt-proc -g zh_CN-zh_TW.autogen.bin
