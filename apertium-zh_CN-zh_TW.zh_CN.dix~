@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+  <alphabet></alphabet>
+   <sdefs>
+    <sdef n="n"/>
+    <sdef n="vblex"/>
+    <sdef n="vbmod" />
+    <sdef n="adj"/>
+    <sdef n="adv" />
+    <sdef n="sg"/>
+    <sdef n="pl"/>
+    <sdef n="prn"/>
+    <sdef n="num" />
+    <sdef n="np" />
+
+    <sdef n="alpha" />
+    <sdef n="acr" />
+    <sdef n="predet" />
+    <sdef n="detnt" />
+    <sdef n="top" />
+    <sdef n="ant" />
+    <sdef n="al" />
+    <sdef n="cog" />
+    <sdef n="atn" />
+    <sdef n="enc" />
+    <sdef n="pro" />
+    <sdef n="tn" />
+    <sdef n="re" />
+    <sdef n="adj" />
+    <sdef n="f" />
+    <sdef n="m" />
+    <sdef n="mf" />
+    <sdef n="preadv" />
+    <sdef n="pr" />
+    <sdef n="rel" />
+    <sdef n="nn" />
+    <sdef n="an" />
+    <sdef n="aa" />
+    <sdef n="ind" />
+    <sdef n="itg" />
+    <sdef n="det" />
+    <sdef n="dem" />
+    <sdef n="def" />
+    <sdef n="cnjcoo" />
+    <sdef n="cnjsub" />
+    <sdef n="cnjadv" />
+    <sdef n="nt" />
+ 
+    <sdef n="inf" />
+    <sdef n="ger" />
+    <sdef n="pp" />
+    <sdef n="p1" />
+    <sdef n="p2" />
+    <sdef n="p3" />
+    <sdef n="pii" />
+    <sdef n="ifi" />
+    <sdef n="fti" />
+    <sdef n="cni" />
+    <sdef n="prs" />
+    <sdef n="pis" />
+    <sdef n="fts" />
+    <sdef n="imp" />
+    <sdef n="pos" />
+    <sdef n="sp" />
+    <sdef n="ref" />
+    <sdef n="sup" />
+    <sdef n="ord" />
+    <sdef n="qnt" />
+    <sdef n="pron" />
+    <sdef n="ij" />
+    <sdef n="sent" />
+    <sdef n="cm" />
+    <sdef n="lpar" />
+    <sdef n="rpar" />
+    <sdef n="web" />
+    <sdef n="apos" />
+    <sdef n="percent" />
+    <sdef n="guio" />
+    <sdef n="past" />
+    <sdef n="sep" />
+    <sdef n="sint" />
+    <sdef n="email" />
+    <sdef n="obj" />
+    <sdef n="subj" />
+    <sdef n="subs" />
+    <sdef n="pprs" />
+    <sdef n="gen" />
+    <sdef n="vbdo" />
+    <sdef n="comp" />
+    <sdef n="pres" />
+    <sdef n="vaux" />
+    <sdef n="sym" />
+    <sdef n="ND" />
+    <sdef n="GD" />
+
+   </sdefs>
+
+  <pardefs>
+
+<pardef n="我__prn">
+  <e>       <p><l></l>		<r><s n="prn"/><s n="sg"/></r></p></e>
+  <e>       <p><l>们</l>		<r><s n="prn"/><s n="pl"/></r></p></e>
+</pardef>
+
+<pardef n="楠哥__np">
+  <e>       <p><l></l>          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+</pardef>
+
+<pardef n="小珊__np">
+  <e>       <p><l></l>          <r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+</pardef>
+
+<pardef n="房子__n">
+  <e>       <p><l></l>          <r><s n="n"/></r></p></e>
+</pardef>
+
+<pardef n="爱__vblex">
+  <e>       <p><l></l>         <r><s n="vblex"/></r></p></e>
+</pardef>
+
+<pardef n="我的__adj">
+  <e>       <p><l></l>          <r><s n="adj"/><s n="pos"/></r></p></e>
+  <e r="RL"><p><l></l>          <r><s n="adj"/></r></p></e>
+</pardef>
+
+<pardef n="好__adj">
+  <e>       <p><l></l>      	<r><s n="adj"/></r></p></e>
+</pardef>
+
+<pardef n="一定__adv">
+  <e>       <p><l></l>          <r><s n="adv"/></r></p></e>
+</pardef>
+
+<pardef n="非常__preadv">
+  <e>       <p><l></l>          <r><s n="preadv"/></r></p></e>
+</pardef>
+
+<pardef n="哪里__adv">
+  <e>       <p><l></l>          <r><s n="adv"/><s n="itg"/></r></p></e>
+</pardef>
+
+
+<pardef n="和__cnjcoo">
+  <e>       <p><l></l>          <r><s n="cnjcoo"/></r></p></e>
+</pardef>
+
+	
+  </pardefs>
+
+  <section id="main" type="standard">
+    <!-- ******************************
+          group prn
+      ****************************** -->
+<e lm="我"><i>我</i><par n="我__prn"/></e>
+<e lm="你"><i>你</i><par n="我__prn"/></e>
+<e lm="您"><i>您</i><par n="我__prn"/></e>
+<e lm="他"><i>他</i><par n="我__prn"/></e>
+<e lm="她"><i>她</i><par n="我__prn"/></e>
+<e lm="它"><i>它</i><par n="我__prn"/></e>
+<e lm="咱"><i>咱</i><par n="我__prn"/></e>
+    <!-- ******************************
+          group np
+      ****************************** -->
+<e lm="楠哥"><i>楠哥</i><par n="楠哥__np"/></e>
+<e lm="小珊"><i>小珊</i><par n="小珊__np"/></e>
+<e lm="小明"><i>小明</i><par n="楠哥__np"/></e>
+<e lm="小红"><i>小红</i><par n="小珊__np"/></e>
+
+    <!-- ******************************
+          group vblex
+      ****************************** -->
+<e lm="爱">		<i>爱</i><par n="爱__vblex"/></e>
+<e lm="在">		<i>在</i><par n="爱__vblex"/></e>
+<e lm="玩">		<i>玩</i><par n="爱__vblex"/></e>
+<e lm="玩耍">		<i>玩耍</i><par n="爱__vblex"/></e>
+    <!-- ******************************
+          group adv
+      ****************************** -->
+<e lm="今天">		<i>今天</i><par n="一定__adv"/></e>
+<e lm="昨天">		<i>昨天</i><par n="一定__adv"/></e>
+<e lm="明天">		<i>明天</i><par n="一定__adv"/></e>
+
+<e lm="一起">		<i>一起</i><par n="一定__adv"/></e>
+
+<e lm="哪里">		<i>哪里</i><par n="哪里__adv"/></e>
+<e lm="何时">		<i>何时</i><par n="哪里__adv"/></e>
+    <!-- ******************************
+          group adj
+      ****************************** -->
+<e lm="我的">           <i>我的</i><par n="我的__adj"/></e>
+<e lm="你的">           <i>你的</i><par n="我的__adj"/></e>
+<e lm="他的">           <i>他的</i><par n="我的__adj"/></e>
+<e lm="她的">           <i>她的</i><par n="我的__adj"/></e>
+<e lm="它的">           <i>它的</i><par n="我的__adj"/></e>
+<e lm="我们的">           <i>我们的</i><par n="我的__adj"/></e>
+<e lm="你们的">           <i>你们的</i><par n="我的__adj"/></e>
+<e lm="他们的">           <i>他们的</i><par n="我的__adj"/></e>
+<e lm="她们的">           <i>她们的</i><par n="我的__adj"/></e>
+<e lm="它们的">           <i>它们的</i><par n="我的__adj"/></e>
+
+<e lm="好">           <i>好</i><par n="好__adj"/></e>
+<e lm="好的">           <i>好的</i><par n="好__adj"/></e>
+<e lm="坏">           <i>坏</i><par n="好__adj"/></e>
+<e lm="坏的">           <i>坏的</i><par n="好__adj"/></e>
+<e lm="大">           <i>大</i><par n="好__adj"/></e>
+<e lm="小">           <i>小</i><par n="好__adj"/></e>
+<e lm="冷">           <i>冷</i><par n="好__adj"/></e>
+<e lm="暖">           <i>暖</i><par n="好__adj"/></e>
+<e lm="暖和">           <i>暖和</i><par n="好__adj"/></e>
+
+    <!-- ******************************
+          group preadv
+      ****************************** -->
+<e lm="更">             <i>更</i><par n="非常__preadv"/></e>
+<e lm="就像">            <i>就像</i><par n="非常__preadv"/></e>
+<e lm="差不多">            <i>差不多</i><par n="非常__preadv"/></e>
+<e lm="那么">          <i>那么</i><par n="非常__preadv"/></e>
+<e lm="真的">          <i>真的</i><par n="非常__preadv"/></e>
+<e lm="如此">              <i>如此</i><par n="非常__preadv"/></e>
+<e lm="很">             <i>很</i><par n="非常__preadv"/></e>
+<e lm="非常">            <i>非常</i><par n="非常__preadv"/></e> 
+
+   <!-- ******************************
+          group cnjcoo
+      ****************************** -->
+
+<e lm="和">		<i>和</i><par n="和__cnjcoo"/></e>
+<e lm="但">		<i>但</i><par n="和__cnjcoo"/></e>
+<e lm="但是">		<i>但是</i><par n="和__cnjcoo"/></e>
+
+   <!-- ******************************
+          group n
+      ****************************** -->
+		<e lm="房子"><i>房子</i><par n="房子__n"/></e>
+		<e lm="花园"><i>花园</i><par n="房子__n"/></e>
+		<e lm="房子"><i>房子</i><par n="房子__n"/></e>
+		<e lm="爸爸"><i>爸爸</i><par n="房子__n"/></e>
+		<e lm="爸"><i>爸</i><par n="房子__n"/></e>
+		<e lm="半天"><i>半天</i><par n="房子__n"/></e>
+		<e lm="办法"><i>办法</i><par n="房子__n"/></e>
+		<e lm="办公室"><i>办公室</i><par n="房子__n"/></e>
+		<e lm="杯子"><i>杯子</i><par n="房子__n"/></e>
+		<e lm="北"><i>北</i><par n="房子__n"/></e>
+		<e lm="北边"><i>北边</i><par n="房子__n"/></e>
+		<e lm="北边儿"><i>北边儿</i><par n="房子__n"/></e>
+		<e lm="本子"><i>本子</i><par n="房子__n"/></e>
+		<e lm="比赛"><i>比赛</i><par n="房子__n"/></e>
+		<e lm="边"><i>边</i><par n="房子__n"/></e>
+		<e lm="表"><i>表</i><par n="房子__n"/></e>
+		<e lm="布"><i>布</i><par n="房子__n"/></e>
+		<e lm="部分"><i>部分</i><par n="房子__n"/></e>
+		<e lm="菜"><i>菜</i><par n="房子__n"/></e>
+		<e lm="操场"><i>操场</i><par n="房子__n"/></e>
+		<e lm="草"><i>草</i><par n="房子__n"/></e>
+		<e lm="茶"><i>茶</i><par n="房子__n"/></e>
+		<e lm="车"><i>车</i><par n="房子__n"/></e>
+		<e lm="车站"><i>车站</i><par n="房子__n"/></e>
+		<e lm="城"><i>城</i><par n="房子__n"/></e>
+		<e lm="城市"><i>城市</i><par n="房子__n"/></e>
+		<e lm="成绩"><i>成绩</i><par n="房子__n"/></e>
+		<e lm="船"><i>船</i><par n="房子__n"/></e>
+		<e lm="窗"><i>窗</i><par n="房子__n"/></e>
+		<e lm="窗户"><i>窗户</i><par n="房子__n"/></e>
+		<e lm="床"><i>床</i><par n="房子__n"/></e>
+		<e lm="春"><i>春</i><par n="房子__n"/></e>
+		<e lm="春天"><i>春天</i><par n="房子__n"/></e>
+		<e lm="磁带"><i>磁带</i><par n="房子__n"/></e>
+		<e lm="词"><i>词</i><par n="房子__n"/></e>
+		<e lm="词典"><i>词典</i><par n="房子__n"/></e>
+		<e lm="错"><i>错</i><par n="房子__n"/></e>
+		<e lm="错误"><i>错误</i><par n="房子__n"/></e>
+		<e lm="打算"><i>打算</i><par n="房子__n"/></e>
+		<e lm="大学"><i>大学</i><par n="房子__n"/></e>
+		<e lm="大夫"><i>大夫</i><par n="房子__n"/></e>
+		<e lm="刀"><i>刀</i><par n="房子__n"/></e>
+		<e lm="道理"><i>道理</i><par n="房子__n"/></e>
+		<e lm="灯"><i>灯</i><par n="房子__n"/></e>
+		<e lm="地方"><i>地方</i><par n="房子__n"/></e>
+		<e lm="弟弟"><i>弟弟</i><par n="房子__n"/></e>
+		<e lm="点心"><i>点心</i><par n="房子__n"/></e>
+		<e lm="点钟"><i>点钟</i><par n="房子__n"/></e>
+		<e lm="电"><i>电</i><par n="房子__n"/></e>
+		<e lm="电车"><i>电车</i><par n="房子__n"/></e>
+		<e lm="电灯"><i>电灯</i><par n="房子__n"/></e>
+		<e lm="电话"><i>电话</i><par n="房子__n"/></e>
+		<e lm="电视"><i>电视</i><par n="房子__n"/></e>
+		<e lm="电影"><i>电影</i><par n="房子__n"/></e>
+		<e lm="东"><i>东</i><par n="房子__n"/></e>
+		<e lm="东边"><i>东边</i><par n="房子__n"/></e>
+		<e lm="东边儿"><i>东边儿</i><par n="房子__n"/></e>
+		<e lm="东西"><i>东西</i><par n="房子__n"/></e>
+		<e lm="冬"><i>冬</i><par n="房子__n"/></e>
+		<e lm="冬天"><i>冬天</i><par n="房子__n"/></e>
+		<e lm="动物"><i>动物</i><par n="房子__n"/></e>
+		<e lm="儿子"><i>儿子</i><par n="房子__n"/></e>
+		<e lm="发展"><i>发展</i><par n="房子__n"/></e>
+		<e lm="法语"><i>法语</i><par n="房子__n"/></e>
+		<e lm="法文"><i>法文</i><par n="房子__n"/></e>
+		<e lm="翻译"><i>翻译</i><par n="房子__n"/></e>
+		<e lm="饭"><i>饭</i><par n="房子__n"/></e>
+		<e lm="饭店"><i>饭店</i><par n="房子__n"/></e>
+		<e lm="方法"><i>方法</i><par n="房子__n"/></e>
+		<e lm="方面"><i>方面</i><par n="房子__n"/></e>
+		<e lm="方向"><i>方向</i><par n="房子__n"/></e>
+		<e lm="房间"><i>房间</i><par n="房子__n"/></e>
+		<e lm="飞机"><i>飞机</i><par n="房子__n"/></e>
+		<e lm="分钟"><i>分钟</i><par n="房子__n"/></e>
+		<e lm="风"><i>风</i><par n="房子__n"/></e>
+		<e lm="夫人"><i>夫人</i><par n="房子__n"/></e>
+		<e lm="服务员"><i>服务员</i><par n="房子__n"/></e>
+		<e lm="父亲"><i>父亲</i><par n="房子__n"/></e>
+		<e lm="附近"><i>附近</i><par n="房子__n"/></e>
+		<e lm="干部"><i>干部</i><par n="房子__n"/></e>
+		<e lm="钢笔"><i>钢笔</i><par n="房子__n"/></e>
+		<e lm="哥哥"><i>哥哥</i><par n="房子__n"/></e>
+		<e lm="歌"><i>歌</i><par n="房子__n"/></e>
+		<e lm="根"><i>根</i><par n="房子__n"/></e>
+		<e lm="工厂"><i>工厂</i><par n="房子__n"/></e>
+		<e lm="工人"><i>工人</i><par n="房子__n"/></e>
+		<e lm="工业"><i>工业</i><par n="房子__n"/></e>
+		<e lm="工作"><i>工作</i><par n="房子__n"/></e>
+		<e lm="公共汽车"><i>公共汽车</i><par n="房子__n"/></e>
+		<e lm="公园"><i>公园</i><par n="房子__n"/></e>
+		<e lm="姑娘"><i>姑娘</i><par n="房子__n"/></e>
+		<e lm="故事"><i>故事</i><par n="房子__n"/></e>
+		<e lm="馆"><i>馆</i><par n="房子__n"/></e>
+		<e lm="广播"><i>广播</i><par n="房子__n"/></e>
+		<e lm="国"><i>国</i><par n="房子__n"/></e>
+		<e lm="国家"><i>国家</i><par n="房子__n"/></e>
+		<e lm="过去"><i>过去</i><par n="房子__n"/></e>
+		<e lm="孩子"><i>孩子</i><par n="房子__n"/></e>
+		<e lm="海"><i>海</i><par n="房子__n"/></e>
+		<e lm="寒假"><i>寒假</i><par n="房子__n"/></e>
+		<e lm="汉语"><i>汉语</i><par n="房子__n"/></e>
+		<e lm="汉字"><i>汉字</i><par n="房子__n"/></e>
+		<e lm="好处"><i>好处</i><par n="房子__n"/></e>
+		<e lm="河"><i>河</i><par n="房子__n"/></e>
+		<e lm="黑板"><i>黑板</i><par n="房子__n"/></e>
+		<e lm="后"><i>后</i><par n="房子__n"/></e>
+		<e lm="后边"><i>后边</i><par n="房子__n"/></e>
+		<e lm="后边儿"><i>后边儿</i><par n="房子__n"/></e>
+		<e lm="湖"><i>湖</i><par n="房子__n"/></e>
+		<e lm="画儿"><i>画儿</i><par n="房子__n"/></e>
+		<e lm="化学"><i>化学</i><par n="房子__n"/></e>
+		<e lm="话"><i>话</i><par n="房子__n"/></e>
+		<e lm="回答"><i>回答</i><par n="房子__n"/></e>
+		<e lm="会话"><i>会话</i><par n="房子__n"/></e>
+		<e lm="活儿"><i>活儿</i><par n="房子__n"/></e>
+		<e lm="活动"><i>活动</i><par n="房子__n"/></e>
+		<e lm="火车"><i>火车</i><par n="房子__n"/></e>
+		<e lm="基础"><i>基础</i><par n="房子__n"/></e>
+		<e lm="机场"><i>机场</i><par n="房子__n"/></e>
+		<e lm="机会"><i>机会</i><par n="房子__n"/></e>
+		<e lm="机器"><i>机器</i><par n="房子__n"/></e>
+		<e lm="鸡"><i>鸡</i><par n="房子__n"/></e>
+		<e lm="鸡蛋"><i>鸡蛋</i><par n="房子__n"/></e>
+		<e lm="技术"><i>技术</i><par n="房子__n"/></e>
+		<e lm="家庭"><i>家庭</i><par n="房子__n"/></e>
+		<e lm="检查"><i>检查</i><par n="房子__n"/></e>
+		<e lm="建设"><i>建设</i><par n="房子__n"/></e>
+		<e lm="将来"><i>将来</i><par n="房子__n"/></e>
+		<e lm="江"><i>江</i><par n="房子__n"/></e>
+		<e lm="脚"><i>脚</i><par n="房子__n"/></e>
+		<e lm="饺子"><i>饺子</i><par n="房子__n"/></e>
+		<e lm="教室"><i>教室</i><par n="房子__n"/></e>
+		<e lm="教育"><i>教育</i><par n="房子__n"/></e>
+		<e lm="街"><i>街</i><par n="房子__n"/></e>
+		<e lm="节目"><i>节目</i><par n="房子__n"/></e>
+		<e lm="节日"><i>节日</i><par n="房子__n"/></e>
+		<e lm="姐姐"><i>姐姐</i><par n="房子__n"/></e>
+		<e lm="精神"><i>精神</i><par n="房子__n"/></e>
+		<e lm="经过"><i>经过</i><par n="房子__n"/></e>
+		<e lm="经济"><i>经济</i><par n="房子__n"/></e>
+		<e lm="经验"><i>经验</i><par n="房子__n"/></e>
+		<e lm="酒"><i>酒</i><par n="房子__n"/></e>
+		<e lm="橘子"><i>橘子</i><par n="房子__n"/></e>
+		<e lm="桔子"><i>桔子</i><par n="房子__n"/></e>
+		<e lm="句子"><i>句子</i><par n="房子__n"/></e>
+		<e lm="决定"><i>决定</i><par n="房子__n"/></e>
+		<e lm="咖啡"><i>咖啡</i><par n="房子__n"/></e>
+		<e lm="卡车"><i>卡车</i><par n="房子__n"/></e>
+		<e lm="开始"><i>开始</i><par n="房子__n"/></e>
+		<e lm="考试"><i>考试</i><par n="房子__n"/></e>
+		<e lm="课"><i>课</i><par n="房子__n"/></e>
+		<e lm="课本"><i>课本</i><par n="房子__n"/></e>
+		<e lm="课文"><i>课文</i><par n="房子__n"/></e>
+		<e lm="空气"><i>空气</i><par n="房子__n"/></e>
+		<e lm="口语"><i>口语</i><par n="房子__n"/></e>
+		<e lm="篮球"><i>篮球</i><par n="房子__n"/></e>
+		<e lm="老师"><i>老师</i><par n="房子__n"/></e>
+		<e lm="里"><i>里</i><par n="房子__n"/></e>
+		<e lm="里边"><i>里边</i><par n="房子__n"/></e>
+		<e lm="里边儿"><i>里边儿</i><par n="房子__n"/></e>
+		<e lm="礼物"><i>礼物</i><par n="房子__n"/></e>
+		<e lm="历史"><i>历史</i><par n="房子__n"/></e>
+		<e lm="联系"><i>联系</i><par n="房子__n"/></e>
+		<e lm="脸"><i>脸</i><par n="房子__n"/></e>
+		<e lm="练习"><i>练习</i><par n="房子__n"/></e>
+		<e lm="领导"><i>领导</i><par n="房子__n"/></e>
+		<e lm="留学生"><i>留学生</i><par n="房子__n"/></e>
+		<e lm="流"><i>流</i><par n="房子__n"/></e>
+		<e lm="楼"><i>楼</i><par n="房子__n"/></e>
+		<e lm="路"><i>路</i><par n="房子__n"/></e>
+		<e lm="录音"><i>录音</i><par n="房子__n"/></e>
+		<e lm="妈妈"><i>妈妈</i><par n="房子__n"/></e>
+		<e lm="妈"><i>妈</i><par n="房子__n"/></e>
+		<e lm="马"><i>马</i><par n="房子__n"/></e>
+		<e lm="帽子"><i>帽子</i><par n="房子__n"/></e>
+		<e lm="妹妹"><i>妹妹</i><par n="房子__n"/></e>
+		<e lm="门口"><i>门口</i><par n="房子__n"/></e>
+		<e lm="米饭"><i>米饭</i><par n="房子__n"/></e>
+		<e lm="面包"><i>面包</i><par n="房子__n"/></e>
+		<e lm="面条儿"><i>面条儿</i><par n="房子__n"/></e>
+		<e lm="面条"><i>面条</i><par n="房子__n"/></e>
+		<e lm="民族"><i>民族</i><par n="房子__n"/></e>
+		<e lm="名字"><i>名字</i><par n="房子__n"/></e>
+		<e lm="母亲"><i>母亲</i><par n="房子__n"/></e>
+		<e lm="南"><i>南</i><par n="房子__n"/></e>
+		<e lm="南边"><i>南边</i><par n="房子__n"/></e>
+		<e lm="南边儿"><i>南边儿</i><par n="房子__n"/></e>
+		<e lm="内"><i>内</i><par n="房子__n"/></e>
+		<e lm="内容"><i>内容</i><par n="房子__n"/></e>
+		<e lm="年"><i>年</i><par n="房子__n"/></e>
+		<e lm="年级"><i>年级</i><par n="房子__n"/></e>
+		<e lm="年纪"><i>年纪</i><par n="房子__n"/></e>
+		<e lm="牛"><i>牛</i><par n="房子__n"/></e>
+		<e lm="牛奶"><i>牛奶</i><par n="房子__n"/></e>
+		<e lm="农村"><i>农村</i><par n="房子__n"/></e>
+		<e lm="农民"><i>农民</i><par n="房子__n"/></e>
+		<e lm="农业"><i>农业</i><par n="房子__n"/></e>
+		<e lm="女儿"><i>女儿</i><par n="房子__n"/></e>
+		<e lm="排球"><i>排球</i><par n="房子__n"/></e>
+		<e lm="派"><i>派</i><par n="房子__n"/></e>		
+		<e lm="旁边"><i>旁边</i><par n="房子__n"/></e>
+		<e lm="旁边儿"><i>旁边儿</i><par n="房子__n"/></e>
+		<e lm="朋友"><i>朋友</i><par n="房子__n"/></e>
+		<e lm="批评"><i>批评</i><par n="房子__n"/></e>
+		<e lm="啤酒"><i>啤酒</i><par n="房子__n"/></e>
+		<e lm="片"><i>片</i><par n="房子__n"/></e>
+		<e lm="票"><i>票</i><par n="房子__n"/></e>
+		<e lm="苹果"><i>苹果</i><par n="房子__n"/></e>
+		<e lm="汽车"><i>汽车</i><par n="房子__n"/></e>
+		<e lm="汽水"><i>汽水</i><par n="房子__n"/></e>
+		<e lm="铅笔"><i>铅笔</i><par n="房子__n"/></e>
+		<e lm="钱"><i>钱</i><par n="房子__n"/></e>
+		<e lm="前"><i>前</i><par n="房子__n"/></e>
+		<e lm="前边"><i>前边</i><par n="房子__n"/></e>
+		<e lm="前边儿"><i>前边儿</i><par n="房子__n"/></e>
+		<e lm="墙"><i>墙</i><par n="房子__n"/></e>
+		<e lm="桥"><i>桥</i><par n="房子__n"/></e>
+		<e lm="青年"><i>青年</i><par n="房子__n"/></e>		
+		<e lm="情况"><i>情况</i><par n="房子__n"/></e>
+		<e lm="秋"><i>秋</i><par n="房子__n"/></e>
+		<e lm="秋天"><i>秋天</i><par n="房子__n"/></e>
+		<e lm="球"><i>球</i><par n="房子__n"/></e>
+		<e lm="人"><i>人</i><par n="房子__n"/></e>
+		<e lm="人们"><i>人们</i><par n="房子__n"/></e>
+		<e lm="人民"><i>人民</i><par n="房子__n"/></e>
+		<e lm="日"><i>日</i><par n="房子__n"/></e>
+		<e lm="日语"><i>日语</i><par n="房子__n"/></e>
+		<e lm="日文"><i>日文</i><par n="房子__n"/></e>
+		<e lm="日子"><i>日子</i><par n="房子__n"/></e>
+		<e lm="肉"><i>肉</i><par n="房子__n"/></e>
+		<e lm="山"><i>山</i><par n="房子__n"/></e>
+		<e lm="商店"><i>商店</i><par n="房子__n"/></e>
+		<e lm="上边"><i>上边</i><par n="房子__n"/></e>
+		<e lm="上边儿"><i>上边儿</i><par n="房子__n"/></e>
+		<e lm="上午"><i>上午</i><par n="房子__n"/></e>
+		<e lm="社会"><i>社会</i><par n="房子__n"/></e>
+		<e lm="身体"><i>身体</i><par n="房子__n"/></e>
+		<e lm="声调"><i>声调</i><par n="房子__n"/></e>
+		<e lm="声音"><i>声音</i><par n="房子__n"/></e>
+		<e lm="生词"><i>生词</i><par n="房子__n"/></e>
+		<e lm="生日"><i>生日</i><par n="房子__n"/></e>
+		<e lm="省"><i>省</i><par n="房子__n"/></e>	
+		<e lm="胜利"><i>胜利</i><par n="房子__n"/></e>
+		<e lm="师傅"><i>师傅</i><par n="房子__n"/></e>
+		<e lm="时候"><i>时候</i><par n="房子__n"/></e>
+		<e lm="时间"><i>时间</i><par n="房子__n"/></e>
+		<e lm="食堂"><i>食堂</i><par n="房子__n"/></e>
+		<e lm="世界"><i>世界</i><par n="房子__n"/></e>
+		<e lm="事"><i>事</i><par n="房子__n"/></e>
+		<e lm="事情"><i>事情</i><par n="房子__n"/></e>
+		<e lm="市"><i>市</i><par n="房子__n"/></e>
+		<e lm="手"><i>手</i><par n="房子__n"/></e>
+		<e lm="手表"><i>手表</i><par n="房子__n"/></e>
+		<e lm="首都"><i>首都</i><par n="房子__n"/></e>
+		<e lm="书"><i>书</i><par n="房子__n"/></e>
+		<e lm="树"><i>树</i><par n="房子__n"/></e>
+		<e lm="数学"><i>数学</i><par n="房子__n"/></e>
+		<e lm="水"><i>水</i><par n="房子__n"/></e>
+		<e lm="水果"><i>水果</i><par n="房子__n"/></e>
+		<e lm="水平"><i>水平</i><par n="房子__n"/></e>
+		<e lm="说明"><i>说明</i><par n="房子__n"/></e>
+		<e lm="思想"><i>思想</i><par n="房子__n"/></e>
+		<e lm="宿舍"><i>宿舍</i><par n="房子__n"/></e>
+		<e lm="太阳"><i>太阳</i><par n="房子__n"/></e>
+		<e lm="态度"><i>态度</i><par n="房子__n"/></e>
+		<e lm="汤"><i>汤</i><par n="房子__n"/></e>
+		<e lm="糖"><i>糖</i><par n="房子__n"/></e>
+		<e lm="体育"><i>体育</i><par n="房子__n"/></e>
+		<e lm="天"><i>天</i><par n="房子__n"/></e>
+		<e lm="天气"><i>天气</i><par n="房子__n"/></e>
+		<e lm="条件"><i>条件</i><par n="房子__n"/></e>
+		<e lm="听写"><i>听写</i><par n="房子__n"/></e>
+		<e lm="通知"><i>通知</i><par n="房子__n"/></e>
+		<e lm="同学"><i>同学</i><par n="房子__n"/></e>
+		<e lm="同志"><i>同志</i><par n="房子__n"/></e>
+		<e lm="图书馆"><i>图书馆</i><par n="房子__n"/></e>
+		<e lm="腿"><i>腿</i><par n="房子__n"/></e>
+		<e lm="袜子"><i>袜子</i><par n="房子__n"/></e>
+		<e lm="外边"><i>外边</i><par n="房子__n"/></e>
+		<e lm="外边儿"><i>外边儿</i><par n="房子__n"/></e>
+		<e lm="外国"><i>外国</i><par n="房子__n"/></e>
+		<e lm="外国人"><i>外国人</i><par n="房子__n"/></e>
+		<e lm="外语"><i>外语</i><par n="房子__n"/></e>
+		<e lm="碗"><i>碗</i><par n="房子__n"/></e>
+		<e lm="晚饭"><i>晚饭</i><par n="房子__n"/></e>
+		<e lm="晚会"><i>晚会</i><par n="房子__n"/></e>
+		<e lm="晚上"><i>晚上</i><par n="房子__n"/></e>
+		<e lm="危险"><i>危险</i><par n="房子__n"/></e>
+		<e lm="文化"><i>文化</i><par n="房子__n"/></e>
+		<e lm="文学"><i>文学</i><par n="房子__n"/></e>
+		<e lm="文学家"><i>文学家</i><par n="房子__n"/></e>
+		<e lm="文艺"><i>文艺</i><par n="房子__n"/></e>
+		<e lm="文章"><i>文章</i><par n="房子__n"/></e>
+		<e lm="问题"><i>问题</i><par n="房子__n"/></e>
+		<e lm="屋子"><i>屋子</i><par n="房子__n"/></e>
+		<e lm="午饭"><i>午饭</i><par n="房子__n"/></e>
+		<e lm="物理"><i>物理</i><par n="房子__n"/></e>
+		<e lm="西"><i>西</i><par n="房子__n"/></e>
+		<e lm="西边"><i>西边</i><par n="房子__n"/></e>
+		<e lm="西边儿"><i>西边儿</i><par n="房子__n"/></e>
+		<e lm="系"><i>系</i><par n="房子__n"/></e>
+		<e lm="下"><i>下</i><par n="房子__n"/></e>
+		<e lm="下边"><i>下边</i><par n="房子__n"/></e>
+		<e lm="下边儿"><i>下边儿</i><par n="房子__n"/></e>
+		<e lm="下午"><i>下午</i><par n="房子__n"/></e>
+		<e lm="夏"><i>夏</i><par n="房子__n"/></e>
+		<e lm="夏天"><i>夏天</i><par n="房子__n"/></e>
+		<e lm="先生"><i>先生</i><par n="房子__n"/></e>
+		<e lm="现代"><i>现代</i><par n="房子__n"/></e>
+		<e lm="香蕉"><i>香蕉</i><par n="房子__n"/></e>
+		<e lm="消息"><i>消息</i><par n="房子__n"/></e>
+		<e lm="小孩儿"><i>小孩儿</i><par n="房子__n"/></e>
+		<e lm="小孩"><i>小孩</i><par n="房子__n"/></e>
+		<e lm="小姐"><i>小姐</i><par n="房子__n"/></e>
+		<e lm="小时"><i>小时</i><par n="房子__n"/></e>
+		<e lm="鞋"><i>鞋</i><par n="房子__n"/></e>
+		<e lm="鞋子"><i>鞋子</i><par n="房子__n"/></e>
+		<e lm="新年"><i>新年</i><par n="房子__n"/></e>
+		<e lm="新闻"><i>新闻</i><par n="房子__n"/></e>
+		<e lm="心"><i>心</i><par n="房子__n"/></e>
+		<e lm="信"><i>信</i><par n="房子__n"/></e>
+		<e lm="信封"><i>信封</i><par n="房子__n"/></e>
+		<e lm="星期一"><i>星期一</i><par n="房子__n"/></e>
+		<e lm="星期二"><i>星期二</i><par n="房子__n"/></e>
+		<e lm="星期三"><i>星期三</i><par n="房子__n"/></e>
+		<e lm="星期四"><i>星期四</i><par n="房子__n"/></e>
+		<e lm="星期五"><i>星期五</i><par n="房子__n"/></e>
+		<e lm="星期六"><i>星期六</i><par n="房子__n"/></e>
+		<e lm="星期"><i>星期</i><par n="房子__n"/></e>
+		<e lm="星期日"><i>星期日</i><par n="房子__n"/></e>
+		<e lm="星期天"><i>星期天</i><par n="房子__n"/></e>
+		<e lm="需要"><i>需要</i><par n="房子__n"/></e>
+		<e lm="学生"><i>学生</i><par n="房子__n"/></e>
+		<e lm="学校"><i>学校</i><par n="房子__n"/></e>
+		<e lm="学院"><i>学院</i><par n="房子__n"/></e>
+		<e lm="雪"><i>雪</i><par n="房子__n"/></e>
+		<e lm="颜色"><i>颜色</i><par n="房子__n"/></e>
+		<e lm="眼睛"><i>眼睛</i><par n="房子__n"/></e>
+		<e lm="宴会"><i>宴会</i><par n="房子__n"/></e>
+		<e lm="羊"><i>羊</i><par n="房子__n"/></e>
+		<e lm="样子"><i>样子</i><par n="房子__n"/></e>
+		<e lm="药"><i>药</i><par n="房子__n"/></e>
+		<e lm="夜"><i>夜</i><par n="房子__n"/></e>
+		<e lm="医生"><i>医生</i><par n="房子__n"/></e>
+		<e lm="医院"><i>医院</i><par n="房子__n"/></e>
+		<e lm="衣服"><i>衣服</i><par n="房子__n"/></e>
+		<e lm="椅子"><i>椅子</i><par n="房子__n"/></e>
+		<e lm="艺术"><i>艺术</i><par n="房子__n"/></e>
+		<e lm="意见"><i>意见</i><par n="房子__n"/></e>
+		<e lm="意思"><i>意思</i><par n="房子__n"/></e>
+		<e lm="意义"><i>意义</i><par n="房子__n"/></e>
+		<e lm="音乐"><i>音乐</i><par n="房子__n"/></e>
+		<e lm="银行"><i>银行</i><par n="房子__n"/></e>
+		<e lm="英语"><i>英语</i><par n="房子__n"/></e>
+		<e lm="英文"><i>英文</i><par n="房子__n"/></e>
+		<e lm="影响"><i>影响</i><par n="房子__n"/></e>
+		<e lm="邮局"><i>邮局</i><par n="房子__n"/></e>
+		<e lm="邮票"><i>邮票</i><par n="房子__n"/></e>
+		<e lm="友谊"><i>友谊</i><par n="房子__n"/></e>
+		<e lm="右"><i>右</i><par n="房子__n"/></e>
+		<e lm="鱼"><i>鱼</i><par n="房子__n"/></e>
+		<e lm="雨"><i>雨</i><par n="房子__n"/></e>
+		<e lm="语法"><i>语法</i><par n="房子__n"/></e>
+		<e lm="语言"><i>语言</i><par n="房子__n"/></e>
+		<e lm="圆"><i>圆</i><par n="房子__n"/></e>
+		<e lm="月"><i>月</i><par n="房子__n"/></e>
+		<e lm="月亮"><i>月亮</i><par n="房子__n"/></e>
+		<e lm="月球"><i>月球</i><par n="房子__n"/></e>
+		<e lm="云"><i>云</i><par n="房子__n"/></e>
+		<e lm="运动"><i>运动</i><par n="房子__n"/></e>
+		<e lm="早上"><i>早上</i><par n="房子__n"/></e>
+		<e lm="早晨"><i>早晨</i><par n="房子__n"/></e>
+		<e lm="早饭"><i>早饭</i><par n="房子__n"/></e>
+		<e lm="展览"><i>展览</i><par n="房子__n"/></e>
+		<e lm="站"><i>站</i><par n="房子__n"/></e>
+		<e lm="政府"><i>政府</i><par n="房子__n"/></e>
+		<e lm="政治"><i>政治</i><par n="房子__n"/></e>
+		<e lm="知识"><i>知识</i><par n="房子__n"/></e>
+		<e lm="纸"><i>纸</i><par n="房子__n"/></e>
+		<e lm="中间"><i>中间</i><par n="房子__n"/></e>
+		<e lm="中文"><i>中文</i><par n="房子__n"/></e>
+		<e lm="中午"><i>中午</i><par n="房子__n"/></e>
+		<e lm="中学"><i>中学</i><par n="房子__n"/></e>
+		<e lm="钟"><i>钟</i><par n="房子__n"/></e>
+		<e lm="钟头"><i>钟头</i><par n="房子__n"/></e>
+		<e lm="周"><i>周</i><par n="房子__n"/></e>
+		<e lm="周一"><i>周一</i><par n="房子__n"/></e>
+		<e lm="周二"><i>周二</i><par n="房子__n"/></e>
+		<e lm="周三"><i>周三</i><par n="房子__n"/></e>
+		<e lm="周四"><i>周四</i><par n="房子__n"/></e>
+		<e lm="周五"><i>周五</i><par n="房子__n"/></e>
+		<e lm="周六"><i>周六</i><par n="房子__n"/></e>
+		<e lm="周日"><i>周日</i><par n="房子__n"/></e>
+		<e lm="周围"><i>周围</i><par n="房子__n"/></e>
+		<e lm="猪"><i>猪</i><par n="房子__n"/></e>
+		<e lm="准备"><i>准备</i><par n="房子__n"/></e>
+		<e lm="桌子"><i>桌子</i><par n="房子__n"/></e>
+		<e lm="自行车"><i>自行车</i><par n="房子__n"/></e>
+		<e lm="字"><i>字</i><par n="房子__n"/></e>
+		<e lm="足球"><i>足球</i><par n="房子__n"/></e>
+		<e lm="祖国"><i>祖国</i><par n="房子__n"/></e>
+		<e lm="组织"><i>组织</i><par n="房子__n"/></e>
+		<e lm="嘴"><i>嘴</i><par n="房子__n"/></e>
+		<e lm="昨天"><i>昨天</i><par n="房子__n"/></e>
+		<e lm="左"><i>左</i><par n="房子__n"/></e>
+		<e lm="作业"><i>作业</i><par n="房子__n"/></e>
+		<e lm="帮助"><i>帮助</i><par n="房子__n"/></e>
+		<e lm="变化"><i>变化</i><par n="房子__n"/></e>
+		<e lm="差"><i>差</i><par n="房子__n"/></e>
+		<e lm="病"><i>病</i><par n="房子__n"/></e>
+		<e lm="带"><i>带</i><par n="房子__n"/></e>
+		<e lm="代表"><i>代表</i><par n="房子__n"/></e>
+		<e lm="等"><i>等</i><par n="房子__n"/></e>
+		<e lm="反对"><i>反对</i><par n="房子__n"/></e>
+		<e lm="服务"><i>服务</i><par n="房子__n"/></e>
+		<e lm="感冒"><i>感冒</i><par n="房子__n"/></e>
+		<e lm="感谢"><i>感谢</i><par n="房子__n"/></e>
+		<e lm="干"><i>干</i><par n="房子__n"/></e>
+		<e lm="关系"><i>关系</i><par n="房子__n"/></e>
+		<e lm="花"><i>花</i><par n="房子__n"/></e>
+  </section>
+
+</dictionary>
