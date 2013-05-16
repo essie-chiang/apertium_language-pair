@@ -8,3 +8,6 @@ All the "dix" files can be compiled by shell compile.sh, if you don't want compi
 test_m1, test_m2 shows how a sentence analysed. test_s1, test_s2, shows how a sentence translated.<br>
 Morphology dictionaries and bilingual dictionaries are not perfect, I will update them from time to time.<br>
 Translat rule also on the way.<br>
+
+5.16 problems about delimiting analyses in ambiguous lexical units unsolved.
+As the result of m2gg, the output has /@, need to make sure the error is in translate rules or in the modix.
